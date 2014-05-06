@@ -1,0 +1,96 @@
+boundary 0 0 2000 1000 
+platforms
+0 0 80 1000 g
+80 0 1840 80 g
+1920 0 80 1000 g
+80 940 1840 60 g
+80 300 500 40 g
+220 280 20 20 g
+560 280 20 20 g
+760 420 20 120 g
+780 400 20 140 g
+800 380 20 160 g
+820 360 20 180 g
+740 440 20 100 g
+680 500 20 40 g
+700 480 20 60 g
+660 520 20 20 g
+720 460 20 80 g
+840 100 40 440 g
+80 540 260 40 g
+420 540 460 40 g
+320 520 20 20 g
+320 680 120 20 g
+880 780 40 160 g
+740 840 40 100 g
+920 780 400 20 g
+1100 320 20 460 g
+960 680 140 20 g
+880 540 120 20 g
+1000 400 100 20 g
+880 200 100 20 g
+951 867 82 23 n
+1120 320 460 20 g
+1500 260 240 20 g
+1760 80 20 100 g
+1680 440 240 20 g
+1420 540 20 20 g
+1680 500 20 20 g
+1460 760 20 20 g
+1640 660 20 20 g
+1480 400 20 20 g
+1700 860 20 20 g
+1200 500 20 20 g
+80 160 180 20 g
+platformsout
+creatures
+player 119 226 1 0 0 0
+pomgob 206 625 0 1 1
+sbbflyer 515 811 0 1
+sbbflyer 513 618 0 1
+sbbflyer 122 637 0 1
+sbbflyer 177 777 0 1
+sbbflyer 360 864 0 1
+zombo 1055 719 0 1
+sbbflyer 1340 700 0 1
+sbbflyer 1490 630 0 1
+sbbflyer 1587 493 0 1
+sbbflyer 1770 390 0 1
+sbbflyer 1390 460 0 1
+sbbflyer 1240 390 0 1
+sbbflyer 1200 630 0 1
+sbbflyer 1290 580 0 1
+sbbflyer 1560 750 0 1
+sbbflyer 1730 630 0 1
+sbbflyer 1790 800 0 1
+zombo 1160 714 0 1
+zombo 1607 195 0 1
+zombo 922 473 0 1
+zombo 1041 331 0 1
+pomgob 807 855 0 1 1
+pomgob 1135 862 0 1 1
+pomgob 1320 850 0 1 1
+pomgob 1570 850 0 1 1
+pomgob 178 467 0 1 1
+blubber 424 110 4 1 0 
+blubber 438 97 4 1 0 
+blubber 411 99 4 1 0 
+blubber 460 98 4 1 0 
+blubber 443 104 4 1 0 
+blubber 506 104 4 1 0 
+blubber 428 94 4 1 0 
+blubber 488 103 4 1 0 
+blubber 457 110 4 1 0 
+blubber 483 100 4 1 0 
+player 156 217 1 0 1 1
+creaturesout
+locations
+location 925 805 50 58 0 1 0 1 1 1 1 1
+location 79 80 57 80 0 2 -1 0 0 0 0 6
+location 882 81 101 115 0 0 0 0 0 0 0 3
+locationsout
+triggers
+trigger 1 1 1 1
+trigger 2 1 2 3 6 3 -1 1 1 1 1 1
+triggersout
+background graphics/mountains.bmp

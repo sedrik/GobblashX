@@ -1,0 +1,102 @@
+boundary 0 0 2000 1400 
+platforms
+0 0 160 1000 g
+160 840 1580 120 g
+1780 100 220 740 g
+160 0 1840 100 g
+160 380 740 20 g
+220 600 520 20 g
+740 600 1040 20 g
+900 380 820 20 g
+1680 360 40 20 g
+220 560 40 40 g
+500 700 20 20 g
+600 740 60 20 g
+0 1000 100 400 g
+100 1300 1900 100 g
+1880 840 120 460 g
+1700 800 40 40 g
+1740 1080 100 40 g
+560 560 40 40 g
+1700 960 40 120 g
+1620 1180 80 20 g
+180 1120 160 120 g
+100 1200 20 100 g
+680 1100 160 40 g
+1620 1120 20 60 g
+platformsout
+creatures
+player 300 190 1 0 0 0
+player 240 204 1 0 1 0
+sbbflyer 1500 460 0 1
+sbbflyer 1120 460 0 1
+sbbflyer 590 450 0 1
+sbbflyer 419 492 1 1
+sbbflyer 730 510 1 1
+sbbflyer 1170 550 1 1
+sbbflyer 1470 760 1 1
+sbbflyer 1210 760 1 1
+sbbflyer 1030 760 1 1
+sbbflyer 960 760 1 1
+sbbflyer 720 760 1 1
+sbbflyer 350 760 1 1
+sbbflyer 410 660 1 1
+sbbflyer 710 680 1 1
+sbbflyer 1020 720 1 1
+sbbflyer 1120 720 1 1
+sbbflyer 1480 710 1 1
+sbbflyer 1600 710 1 1
+sbbflyer 1350 710 1 1
+sbbflyer 1120 710 1 1
+sbbflyer 910 710 1 1
+sbbflyer 690 710 1 1
+sbbflyer 490 710 1 1
+sbbflyer 330 710 1 1
+pomgob 1029 481 0 1 1
+pomgob 920 490 0 1 1
+pomgob 690 490 0 1 1
+pomgob 617 515 0 1 1
+pomgob 960 700 0 1 1
+pomgob 1060 700 0 1 1
+pomgob 1350 700 0 1 1
+pomgob 1460 700 0 1 1
+pomgob 1580 700 0 1 1
+pomgob 1090 690 0 1 1
+pomgob 970 690 0 1 1
+pomgob 700 690 0 1 1
+pomgob 290 690 0 1 1
+pomgob 1340 1120 0 1 1
+pomgob 1450 1120 0 1 1
+pomgob 1590 1044 0 1 1
+pomgob 1778 885 0 1 1
+pomgob 1110 1140 0 1 1
+pomgob 890 1140 0 1 1
+pomgob 650 1140 0 1 1
+pomgob 420 1140 0 1 1
+pomgob 476 1093 1 1 1
+pomgob 358 1173 1 1 1
+pomgob 117 1126 1 1 1
+pomgob 540 1180 1 1 1
+pomgob 1190 1180 1 1 1
+pomgob 1550 1180 1 1 1
+sbbflyer 1509 1119 0 1
+sbbflyer 1640 1250 0 1
+sbbflyer 1460 1190 0 1
+sbbflyer 1210 1190 0 1
+sbbflyer 1130 1080 0 1
+sbbflyer 880 1150 0 1
+sbbflyer 490 1230 0 1
+sbbflyer 321 1075 0 1
+zombo 135 1224 0 1
+zombo 430 1090 0 1
+zombo 1120 1160 0 1
+zombo 478 540 0 1
+zombo 224 1053 0 1
+sbbflyer 404 1036 0 1
+zombo 775 1042 0 1
+creaturesout
+locations
+locationsout
+triggers
+triggersout
+background graphics/mountains.bmp

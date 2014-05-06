@@ -1,0 +1,25 @@
+....::: Milestones :::....
+Version: Before Pre alpha v0.0001
+Done ||  Task
+ XX      Make a Developer Room
+ XX        Make floor
+ XX        Make walls
+ XX      Make player
+ XX        Spawn player in dev room
+ XX        Get controlls working
+ XX        Be able to attack
+ XX      Make land creature
+ XX        spawn creature
+ XX        make simple simple simple ai
+ XX        kill it
+ XX      Make flying creature
+ XX        spawn
+ XX      Make textures
+ XX        Hero
+ XX        Land creature
+ XX        Flying creature
+ XX        Platform
+ XX          Grass
+
+ XX Enemy: Blubber - watch out for him when he falls from the
+                     ceiling.

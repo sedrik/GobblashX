@@ -1,0 +1,36 @@
+boundary 0 0 1300 1900 
+platforms
+120 1560 160 80 g
+1180 0 120 1900 g
+0 0 120 1800 g
+100 0 1080 60 g
+0 1800 1180 100 g
+560 1440 60 360 g
+400 580 80 180 g
+920 260 60 60 g
+280 180 40 160 g
+620 1500 560 40 g
+820 900 220 120 g
+800 580 280 20 g
+platformsout
+creatures
+player 952 1403 1 0 0 0
+blubber 799 1609 1 0 0 
+blubber 770 1610 1 1 0 
+pomgob 686 1672 0 0 2
+pomgob 631 1698 0 0 2
+pomgob 652 1713 0 1 2
+blubber 833 1744 1 1 1 
+zombo 929 516 0 1
+player 800 1440 0 0 0 0
+pomgob 712 1437 0 1 1
+sbbflyer 1011 1447 0 1
+creaturesout
+locations
+location 111 1676 120 124 0 1 -1 1 1 1 1 1
+location 570 175 20 20 0 0 0 0 0 0 0 2
+locationsout
+triggers
+trigger 1 1 1 3 1 2 -1 1 1 1 1 1
+triggersout
+background graphics/mountains.bmp

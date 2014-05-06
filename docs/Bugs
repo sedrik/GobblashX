@@ -1,0 +1,11 @@
+* TheGobbitor - Platforms that have negative cordinates will be moved
+                slightly if you shift + left click on them.
+
+* TheGobbitor - Locations does not get registered on the grid after user
+                resized map
+
+* GobblashX - Input from my js0 d-pad don't work.. /sedrik
+
+* GobblashX - Zombo attackdistance constant bugs...
+
+* Errorous keycodes on mac. change to SDL constants instead of numers!

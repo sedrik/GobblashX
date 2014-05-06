@@ -1,0 +1,26 @@
+boundary 0 0 3000 2000 
+platforms
+0 1940 3000 60 g
+0 0 3000 60 g
+0 60 60 1880 g
+2940 60 60 1880 g
+2424 258 464 203 n
+2533 455 270 313 n
+2312 766 618 1177 n
+1808 1069 504 877 n
+1828 989 93 83 n
+1816 956 30 41 n
+1861 956 30 42 n
+1905 956 29 40 n
+1390 1418 420 520 n
+640 1800 320 40 g
+60 1720 260 40 g
+platformsout
+creatures
+player 104 1880 1 0 0 0
+creaturesout
+locations
+locationsout
+triggers
+triggersout
+background graphics/mountains.bmp

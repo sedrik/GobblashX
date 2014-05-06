@@ -1,0 +1,68 @@
+....::: Milestones :::....
+Things to do:
+Prio: 1=min
+Prio  Started/done
+
+Engine updates:
+1      X- Engine: maps as arguments
+1      -- Engine: Convert to OpenGL
+1      -- Engine: splitscreen (?)
+2      -- Triggeraction: Pause/Resume
+2      -- Triggeraction: Dialogs
+2      -- Triggeraction: Delay
+3      -- Triggeraction: spawn monster at location
+3      -- framecap function is errornous in the beginning
+3      -- GUI in the beginning of the game
+3      -- Aitools: resize hitbox
+5      -- Engine: Projectiles
+
+Player updates:
+1      -- NewPlayer: Archer
+1      -- NewPlayer: Wizard
+2      -- Player: running slash
+2      -- Player: Upswing while standing
+2      -- Player: Low attack while standing
+2      -- Player: Downattack while falling (?)
+3      -- Player: Finish not completed Playermoves. - add sit possibility to 
+3      -- Player: Walljump
+4      -- Player: delay/cooldown after attacks and jumps
+5      -- Player: timing in moves instead of holding everything with jump and
+
+Enemy/AI updates:
+1      -- Enemy: Archersoldier - dodge his attack and take him down quickly
+1      -- Enemy: Spider        - watch out so you don't get caught in a net
+1      -- Enemy: ????          - he/she/it can easily outrun the hero
+1      -- Enemy Boss: Wizard   - Watch out for his thunderattacks
+2      -- Enemy: Stormcrow     - dodge it's attack and strike him while he's 
+                                 stuck
+4      -- AItools: Linescan
+
+Visual updates:
+1      -- Tile set: Castle level
+2      X- Grassplatform: Different pictures on every box and perhaps Animated
+                         too...?
+3      -- Engine: Enemes get gibbed when they get too much negative hp
+4      -- New: Special effects like blood and smoke
+5      -- New: Debrees to fill out the environment with
+
+Editor/Map updates:
+2      -- TheGobbitor - Copy platform, creature function
+2      -- TheGobbitor - Variable resolution
+2      -- TheGobbitor - Add link to the locations that's used in the trigger
+3      -- Map: ID's to refer to creatures/platforms/locations/triggers with.
+               and then remove all pointers everywere to any of those objects
+4      -- Map/Objects: Objects should load themselves, not in Map::load_map
+
+Other updates:
+2      -- Game: Compile for windows
+
+::::Unsorted:::::
+       X- Triggers
+       XX Game done
+       -- Game failed
+       XX Teleport in map
+       -- Teleport to other map
+                  sit oneselft down while standing. add a backroll from
+                  sit-state. add a attack from sitstate.
+                  attack
+       XX Remove possibility to have same tag on locations and triggers
