@@ -59,11 +59,11 @@ all: gobblashx editor
 
 # Build gobblashx
 gobblashx: $(OBJS_GOBBLASHX)
-	$(CC) $(CFLAGSLINKING) -o $(PROJECT_NAME) $(OBJS_GOBBLASHX)
+	$(CC) $(OBJS_GOBBLASHX) -o $(PROJECT_NAME) $(CFLAGSLINKING) 
 
 # Build the editor
 editor: $(OBJS_EDITOR)
-	$(CC) $(CFLAGSLINKING) -o $(EDITOR_NAME) $(OBJS_EDITOR)
+	$(CC) $(OBJS_EDITOR) -o $(EDITOR_NAME) $(CFLAGSLINKING)
 
 # Build for mac
 mac: $(OBJS_GOBBLASHX)
