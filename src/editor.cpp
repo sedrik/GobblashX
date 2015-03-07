@@ -2552,13 +2552,13 @@ void Editor::get_input(){
   while( SDL_PollEvent( &event ) ){
     switch( event.type ){
     case SDL_KEYDOWN:
-      keydown[event.key.keysym.scancode] = (int)game->get_time();
+      keydown[event.key.keysym.sym] = (int)game->get_time();
       //        printf("frame: %d keydown: %d\n", (int)game->get_time(),
       //         event.key.keysym.scancode);
       break;
 
     case SDL_KEYUP:
-      keyup[event.key.keysym.scancode] = (int)game->get_time();
+      keyup[event.key.keysym.sym] = (int)game->get_time();
       break;
 
     case SDL_QUIT:

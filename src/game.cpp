@@ -230,12 +230,12 @@ void Game::get_input(){
   while( SDL_PollEvent( &event ) ){
     switch( event.type ){
     case SDL_KEYDOWN:
-      keydown[event.key.keysym.scancode] = framenum;
+      keydown[event.key.keysym.sym] = framenum;
       if (settings.show_keysyms){
         printf("frame: %d keydown: %d\n", get_time(),
-               event.key.keysym.scancode);
-        printf("up was: %d\n", keyup[event.key.keysym.scancode]);
-        }
+               event.key.keysym.sym);
+        printf("up was: %d\n", keyup[event.key.keysym.sym]);
+      }
       break;
     case SDL_JOYBUTTONDOWN:
       joykeydown[event.jbutton.which][event.jbutton.button] = framenum;
@@ -248,7 +248,7 @@ void Game::get_input(){
       joykeyup[event.jbutton.which][event.jbutton.button] = framenum;
       break;
     case SDL_KEYUP:
-      keyup[event.key.keysym.scancode] = framenum;
+      keyup[event.key.keysym.sym] = framenum;
       break;
       /*
     case SDL_JOYAXISMOTION:
