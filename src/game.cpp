@@ -76,7 +76,7 @@ Game::Game(){
   paused = false;
   gamekeymap[KEY_EXIT] = SDLK_ESCAPE;  //escape
   gamekeymap[KEY_PAUSE] = SDLK_PAUSE; //p
-  gamekeymap[KEY_COLLISIONMODE] = SDLK_F2; //F1
+  gamekeymap[KEY_COLLISIONMODE] = SDLK_F1; //F1
   gamekeymap[KEY_SHOWSYM] = SDLK_F2; //F2
   gamekeymap[KEY_SHOWPOS] = SDLK_F3; //F3
   gamekeymap[KEY_STATS] = SDLK_F4; //F4
