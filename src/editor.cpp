@@ -160,7 +160,7 @@ Editor::Editor(SDL_Surface **screen, Map &iworld, string mapfolder,
   mo_bgpic[1] = "graphics/forest.bmp";
   mo_currbgpic=0;
 
-  for (int i = 0; i < 256; i++){
+  for (int i = 0; i < MAXIMUM_KEY_VALUE; i++){
     keyup[i] = 1;
     keydown[i] = 0;
   }

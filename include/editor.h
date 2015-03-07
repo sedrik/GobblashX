@@ -32,6 +32,8 @@
 #define EKEY_RESIZEPLATFORM 10
 #define EKEY_TOTAL 11
 
+#define MAXIMUM_KEY_VALUE 1024
+
 enum Menus {
   MENU_MAIN,
   MENU_EDITORMAIN,
@@ -127,8 +129,8 @@ class Editor{
   Text *message;
 
   Sint32 mouselastdown;
-  Sint32 keydown[256]; //the last frame button index was key_downed
-  Sint32 keyup[256]; //the last frame button index was key_upped
+  Sint32 keydown[MAXIMUM_KEY_VALUE]; //the last frame button index was key_downed
+  Sint32 keyup[MAXIMUM_KEY_VALUE]; //the last frame button index was key_upped
   int scrollspeed;
   int keymap[EKEY_TOTAL];
 

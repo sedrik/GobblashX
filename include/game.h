@@ -16,6 +16,8 @@
 #define KEY_SPAWN 8
 #define KEY_TOTAL 9
 
+#define MAXIMUM_KEY_VALUE 1024
+
 class Aitools;
 class Map;
 
@@ -32,8 +34,8 @@ class Game{
   Sint32 **joykeyup;
 
   //varaiables to keep track of keypresses
-  Sint32 keydown[256]; //the last frame button index was key_downed
-  Sint32 keyup[256]; //the last frame button index was key_upped
+  Sint32 keydown[MAXIMUM_KEY_VALUE]; //the last frame button index was key_downed
+  Sint32 keyup[MAXIMUM_KEY_VALUE]; //the last frame button index was key_upped
   int gamekeymap[KEY_TOTAL]; /* ingame keys, not for controlling units */
 
   void handle_input();

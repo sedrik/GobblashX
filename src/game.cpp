@@ -74,17 +74,17 @@ Game::Game(){
   framenum = 1;
   quit = false;
   paused = false;
-  gamekeymap[KEY_EXIT] = 9;  //escape
-  gamekeymap[KEY_PAUSE] = 33; //p
-  gamekeymap[KEY_COLLISIONMODE] = 67; //F1
-  gamekeymap[KEY_SHOWSYM] = 68; //F2
-  gamekeymap[KEY_SHOWPOS] = 69; //F3
-  gamekeymap[KEY_STATS] = 70; //F4
-  gamekeymap[KEY_SPEED] = 71; //F5
-  gamekeymap[KEY_RESSURECT] = 72; //F6
-  gamekeymap[KEY_SPAWN] = 73; //F7
+  gamekeymap[KEY_EXIT] = SDLK_ESCAPE;  //escape
+  gamekeymap[KEY_PAUSE] = SDLK_PAUSE; //p
+  gamekeymap[KEY_COLLISIONMODE] = SDLK_F2; //F1
+  gamekeymap[KEY_SHOWSYM] = SDLK_F2; //F2
+  gamekeymap[KEY_SHOWPOS] = SDLK_F3; //F3
+  gamekeymap[KEY_STATS] = SDLK_F4; //F4
+  gamekeymap[KEY_SPEED] = SDLK_F5; //F5
+  gamekeymap[KEY_RESSURECT] = SDLK_F6; //F6
+  gamekeymap[KEY_SPAWN] = SDLK_F7; //F7
 
-  for (int i = 0; i < 256; i++){
+  for (int i = 0; i < MAXIMUM_KEY_VALUE; i++){
     keyup[i] = 1;
     keydown[i] = 0;
   }
@@ -112,9 +112,9 @@ Game::Game(){
   for(int i = 0; i < joysticks; i++){
     printf("Joystick #%d: %s\n", i, SDL_JoystickName(i));
     joystick[i] = SDL_JoystickOpen(i);
-    joykeyup[i] = new Sint32[256];
-    joykeydown[i] = new Sint32[256];
-    for (int u = 0; u < 256; u++){
+    joykeyup[i] = new Sint32[MAXIMUM_KEY_VALUE];
+    joykeydown[i] = new Sint32[MAXIMUM_KEY_VALUE];
+    for (int u = 0; u < MAXIMUM_KEY_VALUE; u++){
       joykeyup[i][u] = 1;
       joykeydown[i][u] = 0;
     }
@@ -275,7 +275,6 @@ void Game::get_input(){
     case SDL_QUIT:
       quit = true;
       break;
-
     default:
       //printf("unhandeled event\n");
       break;
