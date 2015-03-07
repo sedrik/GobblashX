@@ -40,10 +40,11 @@ OBJS_EDITOR=$(OBJS_DIR)editengine.o $(OBJS_DIR)editor.o  $(OBJS_GAME)   \
 	$(OBJS_DIR)text.o
 
 # Other gcc flags
-CFLAGS += -Wall -Werror -Wno-unused -I $(INCLUDE_DIR) -I/usr/local/include -g -ggdb
+CFLAGS += -O2 -Wall -Wno-unused -I $(INCLUDE_DIR) -I/usr/local/include -g -ggdb
+# TODO use -Werror
 #LDFLAGS += -lSDL -lpthread -L/usr/local/lib
-MACCFLAGSLINKING += -lSDLmain -lSDL -Wl,-framework,Cocoa -lpthread -L/sw/lib
-CFLAGSLINKING += -lSDL $(CFLAGS) -L/usr/local/lib
+
+CFLAGSLINKING += $(CFLAGS) -L/usr/local/lib -I/Library/Frameworks/SDL.framework/Headers src/mac/devel-lite/SDLmain.m -framework SDL -framework Cocoa -lpthread
 CFLAGSDEBUG += -ggdb $(CFLAGS)
 CFLAGSDEBUGLINKING += -lSDL $(CFLAGSDEBUG)
 
@@ -64,10 +65,6 @@ gobblashx: $(OBJS_GOBBLASHX)
 # Build the editor
 editor: $(OBJS_EDITOR)
 	$(CC) $(OBJS_EDITOR) -o $(EDITOR_NAME) $(CFLAGSLINKING)
-
-# Build for mac
-mac: $(OBJS_GOBBLASHX)
-	$(CC) $(MACCFLAGSLINKING) -o $(PROJECT_NAME) $(OBJS_GOBBLASHX)
 
 # clean: remove object files and emacs backup files
 .PHONY: clean
