@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCB00801AABA7A100FEDB0F /* aitools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB005D1AABA7A100FEDB0F /* aitools.cpp */; };
+		FCCB00811AABA7A100FEDB0F /* aura.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB005E1AABA7A100FEDB0F /* aura.cpp */; };
+		FCCB00821AABA7A100FEDB0F /* blubber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB005F1AABA7A100FEDB0F /* blubber.cpp */; };
+		FCCB00831AABA7A100FEDB0F /* controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00601AABA7A100FEDB0F /* controller.cpp */; };
+		FCCB00841AABA7A100FEDB0F /* creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00611AABA7A100FEDB0F /* creature.cpp */; };
+		FCCB00861AABA7A100FEDB0F /* editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00631AABA7A100FEDB0F /* editor.cpp */; };
+		FCCB00871AABA7A100FEDB0F /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00641AABA7A100FEDB0F /* engine.cpp */; };
+		FCCB00881AABA7A100FEDB0F /* filefunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00651AABA7A100FEDB0F /* filefunctions.cpp */; };
+		FCCB00891AABA7A100FEDB0F /* fxfield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00661AABA7A100FEDB0F /* fxfield.cpp */; };
+		FCCB008A1AABA7A100FEDB0F /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00671AABA7A100FEDB0F /* game.cpp */; };
+		FCCB008B1AABA7A100FEDB0F /* graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00681AABA7A100FEDB0F /* graphics.cpp */; };
+		FCCB008C1AABA7A100FEDB0F /* grassplatform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00691AABA7A100FEDB0F /* grassplatform.cpp */; };
+		FCCB008D1AABA7A100FEDB0F /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB006A1AABA7A100FEDB0F /* grid.cpp */; };
+		FCCB008E1AABA7A100FEDB0F /* hashtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB006B1AABA7A100FEDB0F /* hashtable.cpp */; };
+		FCCB008F1AABA7A100FEDB0F /* invizdmgfield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB006C1AABA7A100FEDB0F /* invizdmgfield.cpp */; };
+		FCCB00901AABA7A100FEDB0F /* keymappings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB006D1AABA7A100FEDB0F /* keymappings.cpp */; };
+		FCCB00911AABA7A100FEDB0F /* location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB006E1AABA7A100FEDB0F /* location.cpp */; };
+		FCCB00931AABA7A100FEDB0F /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00741AABA7A100FEDB0F /* map.cpp */; };
+		FCCB00941AABA7A100FEDB0F /* physics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00751AABA7A100FEDB0F /* physics.cpp */; };
+		FCCB00951AABA7A100FEDB0F /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00761AABA7A100FEDB0F /* platform.cpp */; };
+		FCCB00961AABA7A100FEDB0F /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00771AABA7A100FEDB0F /* player.cpp */; };
+		FCCB00971AABA7A100FEDB0F /* pomgob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00781AABA7A100FEDB0F /* pomgob.cpp */; };
+		FCCB00981AABA7A100FEDB0F /* sbbflyer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00791AABA7A100FEDB0F /* sbbflyer.cpp */; };
+		FCCB00991AABA7A100FEDB0F /* scanresult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB007A1AABA7A100FEDB0F /* scanresult.cpp */; };
+		FCCB009A1AABA7A100FEDB0F /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB007B1AABA7A100FEDB0F /* settings.cpp */; };
+		FCCB009B1AABA7A100FEDB0F /* swordslash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB007C1AABA7A100FEDB0F /* swordslash.cpp */; };
+		FCCB009C1AABA7A100FEDB0F /* text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB007D1AABA7A100FEDB0F /* text.cpp */; };
+		FCCB009D1AABA7A100FEDB0F /* trigger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB007E1AABA7A100FEDB0F /* trigger.cpp */; };
+		FCCB009E1AABA7A100FEDB0F /* zombo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCCB007F1AABA7A100FEDB0F /* zombo.cpp */; };
+		FCCB00A01AABA87700FEDB0F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCB009F1AABA87700FEDB0F /* Cocoa.framework */; };
+		FCCB00A21AABA8AA00FEDB0F /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCB00A11AABA8AA00FEDB0F /* SDL.framework */; };
+		FCCB00A81AABAAF200FEDB0F /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB00A71AABAAF200FEDB0F /* SDLMain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCCB00311AABA77300FEDB0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FCCB00331AABA77300FEDB0F /* Gobblash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gobblash; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCB003E1AABA7A100FEDB0F /* aitools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aitools.h; sourceTree = "<group>"; };
+		FCCB003F1AABA7A100FEDB0F /* aura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aura.h; sourceTree = "<group>"; };
+		FCCB00401AABA7A100FEDB0F /* blubber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blubber.h; sourceTree = "<group>"; };
+		FCCB00411AABA7A100FEDB0F /* controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controller.h; sourceTree = "<group>"; };
+		FCCB00421AABA7A100FEDB0F /* controllerkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controllerkey.h; sourceTree = "<group>"; };
+		FCCB00431AABA7A100FEDB0F /* creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = creature.h; sourceTree = "<group>"; };
+		FCCB00441AABA7A100FEDB0F /* editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editor.h; sourceTree = "<group>"; };
+		FCCB00451AABA7A100FEDB0F /* filefunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filefunctions.h; sourceTree = "<group>"; };
+		FCCB00461AABA7A100FEDB0F /* fxfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fxfield.h; sourceTree = "<group>"; };
+		FCCB00471AABA7A100FEDB0F /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		FCCB00481AABA7A100FEDB0F /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		FCCB00491AABA7A100FEDB0F /* grassplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grassplatform.h; sourceTree = "<group>"; };
+		FCCB004A1AABA7A100FEDB0F /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		FCCB004B1AABA7A100FEDB0F /* hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		FCCB004C1AABA7A100FEDB0F /* hashtable_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable_gen.h; sourceTree = "<group>"; };
+		FCCB004D1AABA7A100FEDB0F /* invizdmgfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = invizdmgfield.h; sourceTree = "<group>"; };
+		FCCB004E1AABA7A100FEDB0F /* keymappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keymappings.h; sourceTree = "<group>"; };
+		FCCB004F1AABA7A100FEDB0F /* location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = location.h; sourceTree = "<group>"; };
+		FCCB00501AABA7A100FEDB0F /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		FCCB00511AABA7A100FEDB0F /* physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = physics.h; sourceTree = "<group>"; };
+		FCCB00521AABA7A100FEDB0F /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		FCCB00531AABA7A100FEDB0F /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		FCCB00541AABA7A100FEDB0F /* pomgob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pomgob.h; sourceTree = "<group>"; };
+		FCCB00551AABA7A100FEDB0F /* sbbflyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbbflyer.h; sourceTree = "<group>"; };
+		FCCB00561AABA7A100FEDB0F /* scanresult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanresult.h; sourceTree = "<group>"; };
+		FCCB00571AABA7A100FEDB0F /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		FCCB00581AABA7A100FEDB0F /* swordslash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swordslash.h; sourceTree = "<group>"; };
+		FCCB00591AABA7A100FEDB0F /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		FCCB005A1AABA7A100FEDB0F /* trigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trigger.h; sourceTree = "<group>"; };
+		FCCB005B1AABA7A100FEDB0F /* zombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zombo.h; sourceTree = "<group>"; };
+		FCCB005D1AABA7A100FEDB0F /* aitools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aitools.cpp; sourceTree = "<group>"; };
+		FCCB005E1AABA7A100FEDB0F /* aura.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aura.cpp; sourceTree = "<group>"; };
+		FCCB005F1AABA7A100FEDB0F /* blubber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blubber.cpp; sourceTree = "<group>"; };
+		FCCB00601AABA7A100FEDB0F /* controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controller.cpp; sourceTree = "<group>"; };
+		FCCB00611AABA7A100FEDB0F /* creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = creature.cpp; sourceTree = "<group>"; };
+		FCCB00621AABA7A100FEDB0F /* editengine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = editengine.cpp; sourceTree = "<group>"; };
+		FCCB00631AABA7A100FEDB0F /* editor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = editor.cpp; sourceTree = "<group>"; };
+		FCCB00641AABA7A100FEDB0F /* engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = engine.cpp; sourceTree = "<group>"; };
+		FCCB00651AABA7A100FEDB0F /* filefunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filefunctions.cpp; sourceTree = "<group>"; };
+		FCCB00661AABA7A100FEDB0F /* fxfield.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fxfield.cpp; sourceTree = "<group>"; };
+		FCCB00671AABA7A100FEDB0F /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		FCCB00681AABA7A100FEDB0F /* graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphics.cpp; sourceTree = "<group>"; };
+		FCCB00691AABA7A100FEDB0F /* grassplatform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grassplatform.cpp; sourceTree = "<group>"; };
+		FCCB006A1AABA7A100FEDB0F /* grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
+		FCCB006B1AABA7A100FEDB0F /* hashtable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashtable.cpp; sourceTree = "<group>"; };
+		FCCB006C1AABA7A100FEDB0F /* invizdmgfield.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = invizdmgfield.cpp; sourceTree = "<group>"; };
+		FCCB006D1AABA7A100FEDB0F /* keymappings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = keymappings.cpp; sourceTree = "<group>"; };
+		FCCB006E1AABA7A100FEDB0F /* location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = location.cpp; sourceTree = "<group>"; };
+		FCCB00741AABA7A100FEDB0F /* map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = map.cpp; sourceTree = "<group>"; };
+		FCCB00751AABA7A100FEDB0F /* physics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = physics.cpp; sourceTree = "<group>"; };
+		FCCB00761AABA7A100FEDB0F /* platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = platform.cpp; sourceTree = "<group>"; };
+		FCCB00771AABA7A100FEDB0F /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		FCCB00781AABA7A100FEDB0F /* pomgob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pomgob.cpp; sourceTree = "<group>"; };
+		FCCB00791AABA7A100FEDB0F /* sbbflyer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbbflyer.cpp; sourceTree = "<group>"; };
+		FCCB007A1AABA7A100FEDB0F /* scanresult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scanresult.cpp; sourceTree = "<group>"; };
+		FCCB007B1AABA7A100FEDB0F /* settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = settings.cpp; sourceTree = "<group>"; };
+		FCCB007C1AABA7A100FEDB0F /* swordslash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = swordslash.cpp; sourceTree = "<group>"; };
+		FCCB007D1AABA7A100FEDB0F /* text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text.cpp; sourceTree = "<group>"; };
+		FCCB007E1AABA7A100FEDB0F /* trigger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trigger.cpp; sourceTree = "<group>"; };
+		FCCB007F1AABA7A100FEDB0F /* zombo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zombo.cpp; sourceTree = "<group>"; };
+		FCCB009F1AABA87700FEDB0F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FCCB00A11AABA8AA00FEDB0F /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		FCCB00A51AABAAF200FEDB0F /* ReadMeDevLite.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMeDevLite.txt; sourceTree = "<group>"; };
+		FCCB00A61AABAAF200FEDB0F /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		FCCB00A71AABAAF200FEDB0F /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		FCCB00A91AABAB2300FEDB0F /* gobblashx.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gobblashx.conf; path = ../gobblashx.conf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCB00301AABA77300FEDB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB00A21AABA8AA00FEDB0F /* SDL.framework in Frameworks */,
+				FCCB00A01AABA87700FEDB0F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCB002A1AABA77300FEDB0F = {
+			isa = PBXGroup;
+			children = (
+				FCCB00A91AABAB2300FEDB0F /* gobblashx.conf */,
+				FCCB00A31AABAAF200FEDB0F /* mac */,
+				FCCB00A11AABA8AA00FEDB0F /* SDL.framework */,
+				FCCB009F1AABA87700FEDB0F /* Cocoa.framework */,
+				FCCB003D1AABA7A100FEDB0F /* include */,
+				FCCB005C1AABA7A100FEDB0F /* src */,
+				FCCB00341AABA77300FEDB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCB00341AABA77300FEDB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB00331AABA77300FEDB0F /* Gobblash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCB003D1AABA7A100FEDB0F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB003E1AABA7A100FEDB0F /* aitools.h */,
+				FCCB003F1AABA7A100FEDB0F /* aura.h */,
+				FCCB00401AABA7A100FEDB0F /* blubber.h */,
+				FCCB00411AABA7A100FEDB0F /* controller.h */,
+				FCCB00421AABA7A100FEDB0F /* controllerkey.h */,
+				FCCB00431AABA7A100FEDB0F /* creature.h */,
+				FCCB00441AABA7A100FEDB0F /* editor.h */,
+				FCCB00451AABA7A100FEDB0F /* filefunctions.h */,
+				FCCB00461AABA7A100FEDB0F /* fxfield.h */,
+				FCCB00471AABA7A100FEDB0F /* game.h */,
+				FCCB00481AABA7A100FEDB0F /* graphics.h */,
+				FCCB00491AABA7A100FEDB0F /* grassplatform.h */,
+				FCCB004A1AABA7A100FEDB0F /* grid.h */,
+				FCCB004B1AABA7A100FEDB0F /* hashtable.h */,
+				FCCB004C1AABA7A100FEDB0F /* hashtable_gen.h */,
+				FCCB004D1AABA7A100FEDB0F /* invizdmgfield.h */,
+				FCCB004E1AABA7A100FEDB0F /* keymappings.h */,
+				FCCB004F1AABA7A100FEDB0F /* location.h */,
+				FCCB00501AABA7A100FEDB0F /* map.h */,
+				FCCB00511AABA7A100FEDB0F /* physics.h */,
+				FCCB00521AABA7A100FEDB0F /* platform.h */,
+				FCCB00531AABA7A100FEDB0F /* player.h */,
+				FCCB00541AABA7A100FEDB0F /* pomgob.h */,
+				FCCB00551AABA7A100FEDB0F /* sbbflyer.h */,
+				FCCB00561AABA7A100FEDB0F /* scanresult.h */,
+				FCCB00571AABA7A100FEDB0F /* settings.h */,
+				FCCB00581AABA7A100FEDB0F /* swordslash.h */,
+				FCCB00591AABA7A100FEDB0F /* text.h */,
+				FCCB005A1AABA7A100FEDB0F /* trigger.h */,
+				FCCB005B1AABA7A100FEDB0F /* zombo.h */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = "<group>";
+		};
+		FCCB005C1AABA7A100FEDB0F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB005D1AABA7A100FEDB0F /* aitools.cpp */,
+				FCCB005E1AABA7A100FEDB0F /* aura.cpp */,
+				FCCB005F1AABA7A100FEDB0F /* blubber.cpp */,
+				FCCB00601AABA7A100FEDB0F /* controller.cpp */,
+				FCCB00611AABA7A100FEDB0F /* creature.cpp */,
+				FCCB00621AABA7A100FEDB0F /* editengine.cpp */,
+				FCCB00631AABA7A100FEDB0F /* editor.cpp */,
+				FCCB00641AABA7A100FEDB0F /* engine.cpp */,
+				FCCB00651AABA7A100FEDB0F /* filefunctions.cpp */,
+				FCCB00661AABA7A100FEDB0F /* fxfield.cpp */,
+				FCCB00671AABA7A100FEDB0F /* game.cpp */,
+				FCCB00681AABA7A100FEDB0F /* graphics.cpp */,
+				FCCB00691AABA7A100FEDB0F /* grassplatform.cpp */,
+				FCCB006A1AABA7A100FEDB0F /* grid.cpp */,
+				FCCB006B1AABA7A100FEDB0F /* hashtable.cpp */,
+				FCCB006C1AABA7A100FEDB0F /* invizdmgfield.cpp */,
+				FCCB006D1AABA7A100FEDB0F /* keymappings.cpp */,
+				FCCB006E1AABA7A100FEDB0F /* location.cpp */,
+				FCCB00741AABA7A100FEDB0F /* map.cpp */,
+				FCCB00751AABA7A100FEDB0F /* physics.cpp */,
+				FCCB00761AABA7A100FEDB0F /* platform.cpp */,
+				FCCB00771AABA7A100FEDB0F /* player.cpp */,
+				FCCB00781AABA7A100FEDB0F /* pomgob.cpp */,
+				FCCB00791AABA7A100FEDB0F /* sbbflyer.cpp */,
+				FCCB007A1AABA7A100FEDB0F /* scanresult.cpp */,
+				FCCB007B1AABA7A100FEDB0F /* settings.cpp */,
+				FCCB007C1AABA7A100FEDB0F /* swordslash.cpp */,
+				FCCB007D1AABA7A100FEDB0F /* text.cpp */,
+				FCCB007E1AABA7A100FEDB0F /* trigger.cpp */,
+				FCCB007F1AABA7A100FEDB0F /* zombo.cpp */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		FCCB00A31AABAAF200FEDB0F /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB00A41AABAAF200FEDB0F /* devel-lite */,
+			);
+			name = mac;
+			path = ../mac;
+			sourceTree = "<group>";
+		};
+		FCCB00A41AABAAF200FEDB0F /* devel-lite */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB00A51AABAAF200FEDB0F /* ReadMeDevLite.txt */,
+				FCCB00A61AABAAF200FEDB0F /* SDLMain.h */,
+				FCCB00A71AABAAF200FEDB0F /* SDLMain.m */,
+			);
+			path = "devel-lite";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCB00321AABA77300FEDB0F /* Gobblash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCB003A1AABA77300FEDB0F /* Build configuration list for PBXNativeTarget "Gobblash" */;
+			buildPhases = (
+				FCCB002F1AABA77300FEDB0F /* Sources */,
+				FCCB00301AABA77300FEDB0F /* Frameworks */,
+				FCCB00311AABA77300FEDB0F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gobblash;
+			productName = Gobblash;
+			productReference = FCCB00331AABA77300FEDB0F /* Gobblash */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCB002B1AABA77300FEDB0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "David Viklund";
+				TargetAttributes = {
+					FCCB00321AABA77300FEDB0F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FCCB002E1AABA77300FEDB0F /* Build configuration list for PBXProject "Gobblash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCCB002A1AABA77300FEDB0F;
+			productRefGroup = FCCB00341AABA77300FEDB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCB00321AABA77300FEDB0F /* Gobblash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCB002F1AABA77300FEDB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB009E1AABA7A100FEDB0F /* zombo.cpp in Sources */,
+				FCCB00941AABA7A100FEDB0F /* physics.cpp in Sources */,
+				FCCB00801AABA7A100FEDB0F /* aitools.cpp in Sources */,
+				FCCB00861AABA7A100FEDB0F /* editor.cpp in Sources */,
+				FCCB00931AABA7A100FEDB0F /* map.cpp in Sources */,
+				FCCB00881AABA7A100FEDB0F /* filefunctions.cpp in Sources */,
+				FCCB009B1AABA7A100FEDB0F /* swordslash.cpp in Sources */,
+				FCCB009C1AABA7A100FEDB0F /* text.cpp in Sources */,
+				FCCB00961AABA7A100FEDB0F /* player.cpp in Sources */,
+				FCCB00841AABA7A100FEDB0F /* creature.cpp in Sources */,
+				FCCB008B1AABA7A100FEDB0F /* graphics.cpp in Sources */,
+				FCCB009D1AABA7A100FEDB0F /* trigger.cpp in Sources */,
+				FCCB00831AABA7A100FEDB0F /* controller.cpp in Sources */,
+				FCCB00901AABA7A100FEDB0F /* keymappings.cpp in Sources */,
+				FCCB008D1AABA7A100FEDB0F /* grid.cpp in Sources */,
+				FCCB00891AABA7A100FEDB0F /* fxfield.cpp in Sources */,
+				FCCB00991AABA7A100FEDB0F /* scanresult.cpp in Sources */,
+				FCCB008E1AABA7A100FEDB0F /* hashtable.cpp in Sources */,
+				FCCB00911AABA7A100FEDB0F /* location.cpp in Sources */,
+				FCCB00821AABA7A100FEDB0F /* blubber.cpp in Sources */,
+				FCCB008F1AABA7A100FEDB0F /* invizdmgfield.cpp in Sources */,
+				FCCB00871AABA7A100FEDB0F /* engine.cpp in Sources */,
+				FCCB00811AABA7A100FEDB0F /* aura.cpp in Sources */,
+				FCCB00971AABA7A100FEDB0F /* pomgob.cpp in Sources */,
+				FCCB00A81AABAAF200FEDB0F /* SDLMain.m in Sources */,
+				FCCB008A1AABA7A100FEDB0F /* game.cpp in Sources */,
+				FCCB008C1AABA7A100FEDB0F /* grassplatform.cpp in Sources */,
+				FCCB00981AABA7A100FEDB0F /* sbbflyer.cpp in Sources */,
+				FCCB009A1AABA7A100FEDB0F /* settings.cpp in Sources */,
+				FCCB00951AABA7A100FEDB0F /* platform.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FCCB00381AABA77300FEDB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCCB00391AABA77300FEDB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCCB003B1AABA77300FEDB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCCB003C1AABA77300FEDB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCB002E1AABA77300FEDB0F /* Build configuration list for PBXProject "Gobblash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCB00381AABA77300FEDB0F /* Debug */,
+				FCCB00391AABA77300FEDB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCB003A1AABA77300FEDB0F /* Build configuration list for PBXNativeTarget "Gobblash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCB003B1AABA77300FEDB0F /* Debug */,
+				FCCB003C1AABA77300FEDB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCCB002B1AABA77300FEDB0F /* Project object */;
+}
